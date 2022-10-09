@@ -2,6 +2,16 @@
 <html class="no-js" lang="en">
 
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PRS2YPGNY8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-PRS2YPGNY8');
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <!--favicon-->
@@ -110,16 +120,26 @@
       <div class="leftward-wrapper__container container container--size-large">
         <header class="header header--leftward header--absolute header--yellow">
           <div class="header__container container container--size-large">
+            <div class="header__menu">
+              <nav class="navigation">
+                <ul class="navigation__list">
+                  <li class="navigation__item navigation__item--current">
+                    <a class="navigation__link" href="/">Home<span class="navigation__link-icon">
+                        <svg width="12" height="13">
+                          <use xlink:href="#link-arrow"></use>
+                        </svg>
+                      </span>
+                    </a>
+                  </li>
+
+                </ul>
+              </nav>
+            </div>
             <div class="header__panel">
               <button class="header__menu-toggle menu-toggle" type="button">
                 <span class="menu-toggle__line"></span>
                 <span class="visually-hidden">Menu toggle</span>
               </button>
-              <a class="header__logo logo" href="agency-default.html">
-                <svg width="76" height="19">
-                  <use xlink:href="#logo"></use>
-                </svg>
-              </a>
               <!-- Social-->
               <ul class="header__social social">
                 <li class="social__item">
@@ -162,7 +182,7 @@
                 </div>
               </header>
               <div class="vcard__main">
-                <div class="vcard__great">20 Years experience building software, and partner in coffee and e-commerce brands.
+                <div class="vcard__great">20 years of building software products and partnering in coffee and e-commerce brands.
                 </div>
                 <table>
                   <tbody>
